@@ -1,0 +1,102 @@
+.column {
+  float: left;
+  height: 100vh;
+  width: 20%;
+  opacity: 0.8;
+}
+.square-one,
+.square-six,
+.square-eleven {
+  width: 300px;
+  height: 300px;
+  background: rgba(red, green, blue, alpha);
+  background: linear-gradient(
+    to bottom right,
+    rgb(245, 178, 187) 40%,
+    rgb(245, 128, 139) 40%
+  );
+  height: 100vh;
+}
+.square-two,
+.square-seven,
+.square-twelve {
+  width: 300px;
+  height: 300px;
+  background: rgba(248, 80, 50, 1);
+  background: linear-gradient(
+    to bottom right,
+    rgb(248, 99, 129) 60%,
+    rgb(249, 170, 200) 60%
+  );
+  height: 50vh;
+}
+
+.square-three,
+.square-eight {
+  width: 250px;
+  height: 250px;
+  background: rgba(248, 80, 50, 1);
+  background: linear-gradient(
+    to bottom right,
+    rgb(252, 201, 212) 60%,
+    rgb(249, 170, 185) 60%
+  );
+  height: 50vh;
+}
+
+.square-four,
+.square-nine {
+  width: 250px;
+  height: 250px;
+  background: rgba(248, 80, 50, 1);
+  background: linear-gradient(
+    to right,
+    rgb(245, 209, 215) 60%,
+    rgb(245, 128, 139) 60%
+  );
+  height: 50vh;
+}
+.square-five,
+.square-ten {
+  width: 250px;
+  height: 250px;
+  background: rgba(248, 80, 50, 1);
+  background: linear-gradient(
+    to bottom right,
+    rgb(251, 203, 210) 60%,
+    rgb(243, 114, 134) 60%
+  );
+  height: 50vh;
+}
+
+.square-three,
+.square-four,
+.square-five {
+  padding-right: 40px;
+}
+
+.square-eight,
+.square-nine,
+.square-ten {
+  padding-right: 40px;
+}
+
+.oval {
+  width: 500px;
+  height: 400px;
+  background: rgb(251, 191, 96);
+  border-radius: 300px / 150px;
+  position: absolute;
+  z-index: 2;
+  top: 25%;
+  left: 30%;
+}
+
+.row {
+  position: absolute;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
